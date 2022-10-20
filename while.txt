@@ -1,0 +1,7 @@
+#!/bin/sh
+a=0
+while [ $a -lt 10 ] # kondisi dimana $a kurang dari 10 akan berhenti
+do
+ echo $a # menampilkan isi dari variabel $a
+ a=`expr $a + 1` # perintah di mana variabel $a di tambah dengan angka 1
+done
