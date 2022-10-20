@@ -1,0 +1,6 @@
+-eq > equal to
+-ne > not equal to
+-lt > less than
+-le > than or equal to
+-gt > greater than
+-ge > greater than or equal to
