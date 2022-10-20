@@ -1,0 +1,9 @@
+
+for ((i=0;i<=10;i++)); # disini tetap looping 1 sampai 10
+do
+echo $i
+ if [ $i -eq 5 ]; then # bilang $i ketemu angka 5, maka program akan berhenti
+echo "Cukup sampai 5 saja"
+exit # perintah berhentinya
+ fi
+done
